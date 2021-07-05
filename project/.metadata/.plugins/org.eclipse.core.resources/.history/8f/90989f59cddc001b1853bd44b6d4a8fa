@@ -1,0 +1,55 @@
+package com.ama.javaproject.petpet.models;
+
+import java.util.Date;
+import java.util.List;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
+import javax.persistence.Table;
+
+import org.springframework.format.annotation.DateTimeFormat;
+
+@Entity
+@Table(name="users")
+public class User {
+
+	@Id
+	@GeneratedValue
+	private Long id;
+	@Email(message="Invalid email format. Ex: user@user.com")
+	private String email;
+	@Size(min=1, max=64, message="Password must be 8-16 characters in length")
+    private String firstname;
+    @Size(min=1, max=64)
+    private String lastname;
+    @Size(min=8)
+    private String password;
+    @Size(min=4, max=64)
+    private String address;
+    @Transient
+    @Size(min=8)
+    private String passwordConfirmation;
+    @Column(updatable=false)
+    @DateTimeFormat(pattern="yyyy-MM-dd")
+    private Date createdAt;
+    @DateTimeFormat(pattern="yyyy-MM-dd")
+    private Date updatedAt;
+    @DateTimeFormat(pattern="yyyy-MM-dd")
+    private Date dueDate;
+    
+    
+
+    
+    @ManyToMany(fetch = FetchType.EAGER)
+    @JoinTable(
+        name = "users_roles", 
+        joinColumns = @JoinColumn(name = "user_id"), 
+        inverseJoinColumns = @JoinColumn(name = "role_id"))
+    private List<Role> roles;
+
+}

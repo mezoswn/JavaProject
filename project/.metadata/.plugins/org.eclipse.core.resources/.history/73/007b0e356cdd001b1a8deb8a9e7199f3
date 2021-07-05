@@ -1,0 +1,5 @@
+package com.ama.javaproject.petpet.services;
+
+public class RoleService {
+
+}

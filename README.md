@@ -22,8 +22,11 @@ This is the first page will appear to our site visitors, which will contain thre
 2-	Text field with the welcome letter.
 3-	The footer: contains the contact details and other useful links such as FAQ.
 
+![loginregistration](https://user-images.githubusercontent.com/81511441/124697800-21789500-def0-11eb-94c3-97404ffc7109.gif)
+
 •	Login & Registration (PetPet/Login or Register): 
 This page will enable us for login to the user account if he is already registered in the site before or to register if he is new user. It will contain filling for some of the personal information for the user such as first & last name, email & address.
+![responsive (2)](https://user-images.githubusercontent.com/81511441/124699004-a795db00-def2-11eb-8aa2-4639deb0499a.gif)
 
 •	Welcome (PetPet/user/id)):
 This page to preview the user information and to show all the functionality as a user, such as pick a pet, or donate to our organization & our services.

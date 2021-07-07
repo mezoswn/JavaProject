@@ -1,3 +1,4 @@
+![loginregistration](https://user-images.githubusercontent.com/81511441/124697766-0dcd2e80-def0-11eb-9990-2ba339bafe6f.gif)
 # PETPET
 Done by (Moath Sweidan, Anas Tumaizeh & Alaa Mansour)
 Axsos Academy
@@ -56,6 +57,9 @@ o	Includes NavBar:
 	Register: link which route for register page. (localhost/register)
 o	Welcome text & summary. (Paragraph introduction will be about the project and the mechanism for pets’ service and information).
 o	Footer contains (contacts). (Link to route us for the social account of the company (not active))
+
+![loginregistration](https://user-images.githubusercontent.com/81511441/124697800-21789500-def0-11eb-94c3-97404ffc7109.gif)
+
 
 2-	Login Page: (localhost/login)
 

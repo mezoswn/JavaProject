@@ -11,6 +11,9 @@ The project called PET-PET, which basically contains from 8 + 1(admin) pages (Ho
 
 The routes and the pages functions for the described project will be as bellow: 
 
+![home](https://user-images.githubusercontent.com/81511441/124695963-db6e0200-deec-11eb-9813-2e571dade6f8.gif)
+
+
 •	Home Page (PetPet): 
 This is the first page will appear to our site visitors, which will contain three parts:
 1-	The navbar: contains our logo, name, about us description & registration / log in.

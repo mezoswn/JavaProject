@@ -5,7 +5,10 @@ Palestine
 
 •	About:
 Our project main idea is to create a website for rescuing animals from cruelty and neglect an (specially dogs & cats). The visitor to our website will have the ability to report for suffering/homeless animal, also he can subscribe as a volunteer/supporter so he can contribute with shelter or medical care or any information about feeding, medication, etc. The website also has a gallery of available homeless animals which offered for adoption or required special attention or support. We will be considered as a non-profit organization.
+
 The project called PET-PET, which basically contains from 8 + 1(admin) pages (Home Page, Login & registration for the user, Pet addition (we will make it for the admin only), the admin page), user information, services, Pets available, Pet information & details, and contact us page. 
+<img width="112" alt="PetPet" src="https://user-images.githubusercontent.com/81511441/124693962-07878400-dee9-11eb-9dd3-98eb1a5bb7ac.png">
+
 The routes and the pages functions for the described project will be as bellow: 
 
 •	Home Page (PetPet): 
@@ -134,4 +137,8 @@ o	This page will be displaying a thank you letter and that we will contact the u
 o	Home button to redirect the user to the home page (localhost/home).
 o	Log out button to logout and redirect the user to the home page (localhost/home).
 o	Back button to return the user to the pet info page (PetPet/user/id/pets/pet_id).
+
+![wireframe](https://user-images.githubusercontent.com/81511441/124693984-153d0980-dee9-11eb-8a14-c5a5ea1f8b8e.png)
+
+<img width="710" alt="erd" src="https://user-images.githubusercontent.com/81511441/124694114-50d7d380-dee9-11eb-9a86-0dbfebc8f4da.png">
 

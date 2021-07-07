@@ -30,6 +30,7 @@ This page will enable us for login to the user account if he is already register
 
 •	Welcome (PetPet/user/id)):
 This page to preview the user information and to show all the functionality as a user, such as pick a pet, or donate to our organization & our services.
+![admin](https://user-images.githubusercontent.com/81511441/124709399-192a5500-df04-11eb-9b84-304f2fddeb76.gif)
 
 •	The Admin Page (Pet addition) (PetPet/Admin): 
 This is the admin page, which will allow us to add the pets which will be offered to the users and update the status for each pet or delete the pet.

@@ -1,5 +1,6 @@
-![loginregistration](https://user-images.githubusercontent.com/81511441/124697766-0dcd2e80-def0-11eb-9990-2ba339bafe6f.gif)
+
 # PETPET
+<img width="112" alt="PetPet" src="https://user-images.githubusercontent.com/81511441/124693962-07878400-dee9-11eb-9dd3-98eb1a5bb7ac.png">
 Done by (Moath Sweidan, Anas Tumaizeh & Alaa Mansour)
 Axsos Academy
 Palestine
